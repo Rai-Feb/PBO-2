@@ -10,7 +10,7 @@
 public class Main {
     public static void main(String[] args) {
         // New Object
-        Car myCar = new Car("Merah", "B 1234 XY", 1.8, 1.5, "Honda");
+        Car myCar = new Car("Hitam", "T 6666 RF", 1.8, 1.5, "Toyota");
 
         // Method
         myCar.startEngine();
@@ -19,4 +19,5 @@ public class Main {
         myCar.brake();
         myCar.turnOffHeadLamp();
     }
+
 }
